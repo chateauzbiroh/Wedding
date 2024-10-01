@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zámek Zbiroh | Svatební info</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .logo-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #bfa760;
+            margin: 0 auto 20px auto;
+            background-image: url('https://bauch1337.github.io/wedding/RP.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            font-size: 1.2rem;
+        }
+
+        .contact-info a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .vcard {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .vcard img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .vcard-btn {
+            background-color: white;
+            border: 2px solid #bfa760;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 1rem;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .vcard-btn a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .vcard-btn:hover {
+            background-color: #bfa760;
+            color: white;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 0 20px;
+            margin-top: 30px;
+        }
+
+        .link-item {
+            background-color: white;
+            border: 2px solid #bfa760;
+            padding: 20px 30px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 320px;
+            text-align: center;
+            font-size: 1.2rem;
+            transition: 0.3s;
+        }
+
+        .link-item a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .link-item:hover {
+            background-color: #bfa760;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .link-item {
+                width: 100%;
+            }
+            
+             .vcard-btn {
+        width: 45%;
+    }
+            .profile img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-circle"></div>
+
+        <div class="contact-info">
+            <p><strong>Renata Páchová</strong></p>
+            <p>Email: <a href="mailto:svatba@zbiroh.com">svatba@zbiroh.com</a></p>
+            <p>Telefon: <a href="tel:+420602237590">+420 602 237 590</a></p>
+        </div>
+
+        <!-- vCard sekce -->
+        <div class="vcard">
+           
+            <div class="vcard-btn">
+                <a href="https://bauch1337.github.io/wedding/vizitka.vcf" download="vizitka.vcf">Stáhnout vizitku</a>
+            </div>
+        </div>
+
+        <!-- Odkazy -->
+        <div class="links">
+            <div class="link-item">
+                <a href="https://www.facebook.com/chateauzbiroh/" target="_blank">Facebook</a>
+            </div>
+            <div class="link-item">
+                <a href="https://www.instagram.com/weddingzbiroh/" target="_blank">Instagram</a>
+            </div>
+            <div class="link-item">
+                <a href="https://www.weddingchateau.cz/" target="_blank">Webové stránky</a>
+            </div>
+            <div class="link-item">
+                <a href="https://www.weddingchateau.cz/dotaznik-pro-cenovou-nabidku/" target="_blank">Dotazník</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
